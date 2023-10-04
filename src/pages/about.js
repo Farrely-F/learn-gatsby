@@ -1,11 +1,11 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 const About = () => {
   return (
-    <main>
-      <h1>About Gatsby</h1>
-      <p>Hello World!!!</p>
-    </main>
+    <Layout pageTitle={`About Page`}>
+      <p>About page rendered using layout component</p>
+    </Layout>
   )
 }
 
