@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../components/seo"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
 
 export const Head = () => (
   <>
-    <title>About</title>
+    <Seo title={`About Page`} />
     <meta name="description" content="About Page" />
   </>
 )
